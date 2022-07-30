@@ -27,6 +27,8 @@ F:\Software\SkyWalking\skywalking-agent
 
 -Dskywalking.plugin.jdbc.trace_sql_parameters=${SW_JDBC_TRACE_SQL_PARAMETERS:false}
 
+## Mysql 完整输出 SQL语句和参数
+
 ```java
 import com.example.skywalkingapp.tools.FullSQLInterceptor;
 import org.mybatis.spring.boot.autoconfigure.ConfigurationCustomizer;
